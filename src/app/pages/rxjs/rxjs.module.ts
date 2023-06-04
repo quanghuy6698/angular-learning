@@ -3,7 +3,7 @@ import { RouterModule } from "@angular/router";
 import { SharedModule } from "src/app/shared/shared.module";
 import { RxjsPage } from "./rxjs.page";
 
-const homeRoutes = [
+const routes = [
   {
     path: "",
     component: RxjsPage,
@@ -11,7 +11,7 @@ const homeRoutes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(homeRoutes), SharedModule],
+  imports: [RouterModule.forChild(routes), SharedModule],
   declarations: [RxjsPage],
   exports: [RxjsPage],
 })

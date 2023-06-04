@@ -1,0 +1,20 @@
+.book-collection {
+  background-color: white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.book-collection__book {
+  background-color: skyblue;
+  color: white;
+  padding: 16px;
+  margin: 16px;
+  width: 120px;
+  height: 200px;
+}
+
+.book-collection__book--best-seller {
+  background-color: salmon;
+}

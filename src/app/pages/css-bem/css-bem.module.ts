@@ -1,17 +1,17 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { HomePage } from "./home.page";
+import { CssBemPage } from "./css-bem.page";
 
 const routes = [
   {
     path: "",
-    component: HomePage,
+    component: CssBemPage,
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  declarations: [HomePage],
-  exports: [HomePage],
+  declarations: [CssBemPage],
+  exports: [CssBemPage],
 })
-export class HomeModule {}
+export class CssBemModule {}
